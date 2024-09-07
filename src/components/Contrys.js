@@ -23,7 +23,7 @@ export default function Contrys() {
   const contrysFilter =
     select == ""
       ? contrys
-      : contrys.filter((contry) => contry.continents[0] === select);
+      : contrys.filter((contry) => contry.continents[0] == select);
   const contrytrie =
     trie == "" || trie == "plus"
       ? contrysFilter.sort((a, b) => b.population - a.population)
