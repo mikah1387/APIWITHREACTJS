@@ -1,0 +1,38 @@
+.Navbar {
+  @include flex_center;
+   justify-content: space-around;
+  background: #fff;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  li {
+    a {
+      display: block;
+      text-decoration: none;
+      padding: 15px 20px;
+      color: inherit;
+      transition: 0.3s ease;
+      &:hover,
+      &.active {
+        background: coral;
+        color: #fff;
+      }
+    }
+  }
+}
+
+.logo {
+ width: 50px;
+ height: 50px;
+ 
+ img{
+  width: 100%;
+  height: 100%;
+ }
+}
