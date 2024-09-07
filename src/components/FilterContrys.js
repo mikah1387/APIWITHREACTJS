@@ -1,8 +1,4 @@
-import React, { useState } from "react";
-
-export default function FilterContrys({select, onChange, continants}) {
-  
-    
+export default function FilterContrys({ select, onChange, continants }) {
   return (
     <div>
       <select value={select} onChange={(e) => onChange(e.target.value)}>

@@ -1,8 +1,4 @@
-import React, { useState } from "react";
-
-export default function TrieByPopulation({select, onChange, tries}) {
-  
-    
+export default function TrieByPopulation({ select, onChange, tries }) {
   return (
     <div>
       <select value={select} onChange={(e) => onChange(e.target.value)}>

@@ -19,15 +19,15 @@ export default function Contrys() {
     "Oceania",
     "South America",
   ];
-  const tries = ['Trie par population', "plus", "moins"];
+  const tries = ["Trie par population", "plus", "moins"];
   const contrysFilter =
     select == ""
       ? contrys
       : contrys.filter((contry) => contry.continents[0] === select);
-   const contrytrie =(trie === "" || trie === "plus")
-       ? contrysFilter.sort((a, b) => b.population - a.population)
- 
-       : contrysFilter.sort((a, b) => a.population - b.population);
+  const contrytrie =
+    trie == "" || trie == "plus"
+      ? contrysFilter.sort((a, b) => b.population - a.population)
+      : contrysFilter.sort((a, b) => a.population - b.population);
 
   useEffect(() => {
     axios.get("https://restcountries.com/v3.1/all").then((res) => {

@@ -2,10 +2,10 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import Logo from "./Logo";
 
-export default function () {
+export default function Navbar() {
   return (
     <div className="Navbar">
-        <Logo/>
+      <Logo />
       <ul className="menu">
         <li>
           <NavLink to="/">Home</NavLink>
@@ -13,7 +13,6 @@ export default function () {
         <li>
           <NavLink to="/about">About</NavLink>
         </li>
- 
       </ul>
     </div>
   );
