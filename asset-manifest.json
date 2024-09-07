@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/APIWITHREACTJS/static/css/main.ab938566.css",
+    "main.js": "/APIWITHREACTJS/static/js/main.2c446dfd.js",
+    "index.html": "/APIWITHREACTJS/index.html",
+    "main.ab938566.css.map": "/APIWITHREACTJS/static/css/main.ab938566.css.map",
+    "main.2c446dfd.js.map": "/APIWITHREACTJS/static/js/main.2c446dfd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ab938566.css",
+    "static/js/main.2c446dfd.js"
+  ]
+}
